@@ -1,0 +1,89 @@
+body {
+  background-color: whitesmoke;
+  color: navy;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+  padding: 5px;
+  margin: 10px;
+}
+
+.headings {
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(0, 0, 43);
+}
+p {
+  padding: 10px;
+  margin-right: 200px;
+}
+
+#experienceList li {
+  background-color: rgba(209, 201, 201, 0.527);
+  border-style: solid;
+  border-color: rgb(214, 210, 210);
+  padding: 10px;
+  margin: 10px;
+  margin-right: 500px;
+}
+
+#experienceList {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#skillsList li {
+  background-color: rgba(209, 201, 201, 0.527);
+  border-style: solid;
+  border-color: navy;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  margin-right: 10px;
+  display: inline;
+}
+
+#skillsList {
+  list-style-type: none;
+  padding: 0px;
+  padding-right: 20px;
+}
+
+#headingsMessage {
+  font-size: 30px;
+  color: black;
+}
+
+#leave_message label {
+  font-size: 20px;
+  padding: 10px;
+  color: navy;
+}
+
+#leave_message input {
+  font-size: 15px;
+  padding: 5px;
+}
+
+#submitButton {
+  background-color: orange;
+  padding: 5px;
+}
+
+#newMessages li {
+  background-color: rgba(209, 201, 201, 0.527);
+  border-style: solid;
+  border-color: rgb(214, 210, 210);
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 500px;
+  list-style-type: none;
+}
+
+footer {
+  background-color: lightgrey;
+  word-spacing: 2px;
+  margin: 10px;
+}
