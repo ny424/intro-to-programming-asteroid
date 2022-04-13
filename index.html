@@ -5,24 +5,25 @@
         <title>Home | Neil Y</title>
         <meta name="keywords" content="Neil, Software Engineering, About Me">
         <meta name="author" content="Neil Yanga">
+        <link rel="stylesheet" href="css/index.css">
     </head>
 
     <body>
 
         <header>
-            <h1>Neil Yanga</h1>
+            <h1 class="headings">Neil Yanga</h1>
         </header>
 
         <section>
-            <h2>About</h2>
+            <h2 class="headings">About</h2>
             <p>I'm an aspiring software developer with a background in Finance and Accounting. In my free time, I enjoy going on hikes, collecting art and ceramics, and trying out new food spots in the city.
             </p>
         </section>
 
 
         <section>
-            <h2>Experience</h2>
-            <ul>
+            <h2 class="headings">Experience</h2>
+            <ul id="experienceList">
                 <li>2022: Senior Financial Analyst at Jellysmack</li>
                 <li>2021: Senior Consultant at Resolution Economics</li>
                 <li>2019 - 2021: Audit Senior at Deloitte</li>
@@ -30,15 +31,15 @@
         </section>
 
         <section id="skills">
-            <h2>Skills</h2>
-            <ul>
+            <h2 class="headings">Skills</h2>
+            <ul id="skillsList">
 
             </ul>
 
         </section>
 
         <section>
-            <h2>Connect</h2>
+            <h2 class="headings">Connect</h2>
             <ul>
                 <li>Email: neilyanga.ucsb@gmail.com</li>
                 <li>GitHub: https://github.com/ny424</li>
@@ -46,9 +47,9 @@
         </section>
         
         <section>
-            <h2>Leave a Message</h2>
+            <h2 id="headingsMessage">Leave a Message</h2>
             <form name="leave_message">
-                <table>
+                <table id="leave_message">
                     <tr>
                         <td><label for="name">Name:</label></td>
                         <td><input type="text" name="name" required="true"></td>
@@ -61,14 +62,14 @@
                         <td><label for="message">Message:</label></td>
                         <td><textarea name="message" required="true"></textarea></td>
                     </tr>
-                    <button type="submit">Submit</button>
+                    <button type="submit" id="submitButton">Submit</button>
                 </table>    
             </form>
         </section>
 
         <section id="messages">
-            <h2>Messages</h2>
-            <ul>
+            <h2 class="headings">Messages</h2>
+            <ul id="newMessages">
                 
             </ul>
         </section>
